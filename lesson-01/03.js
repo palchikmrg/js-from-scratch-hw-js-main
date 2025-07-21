@@ -5,4 +5,9 @@
 */
 
 // your code
-let sum
+let sum = 0;
+let number = 1;
+while (number % 2 > 0) {
+    sum = sum+number;
+    number = number + 2;
+}

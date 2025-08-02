@@ -5,7 +5,7 @@ function findLargest(number1, number2, number3) {
         return number1
     } else if (number2 > number1 && number2 > number3) {
         return number2
-    } else {
+    } else if (number3 > number2 && number3 > number1) {
         return number3
     }
 }
